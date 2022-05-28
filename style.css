@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    box-sizing: border-box;
+    background-color: darkcyan;
+}
+.container{
+    margin: 20px auto;
+    max-width: 60%;
+    /* background-color: steelblue; */
+}
+
+form{
+    margin-left: 50px;
+}
+label, input, select, button{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 8px;
+    width: 400px;
+    font-size: 1.25em;
+}
+
+.btn-submit{
+    background-color: goldenrod;
+    cursor: pointer;
+    border: none;
+    color: white;
+}
+
+.btn-submit:hover{
+    background-color: yellowgreen;
+    transition: 0.3s;
+}
+
+.heading{
+    text-align: center;
+    font-size: 2em;
+    color: black;
+    margin-bottom: 5px;
+}
+
+select, button{
+    width: 425px;
+}
